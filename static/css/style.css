@@ -1,0 +1,138 @@
+.sidebar {
+  background: #212936;
+  height: 100%;
+  float: left;
+  margin: 0;
+  width: 256px;
+  z-index: 999999;
+  top: 0%;
+}
+.sidebar__profile {
+  margin-left: 16px;
+  margin-top: 40px;
+  margin-bottom: 13px;
+}
+.sidebar__string {
+  position: relative;
+  height: 1px;
+  width: 100%;
+  background: #56657F;
+}
+.sidebar__username {
+  color: #AFBDD1;
+  line-height: 30px;
+}
+.sidebar__avatar {
+  border-radius: 50%;
+}
+.sidebar__panel {
+  margin-top: 12px;
+}
+.sidebar__panel__text {
+  list-style-type: none;
+  color: #56657F;
+  margin-top: 12px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: none;
+  width: 239px;
+  height: 40px;
+  font-weight: 500;
+  background: #212936;
+  font-size: 14px;
+  outline: none;
+  border-radius: 4px;
+  left: 8px;
+  right: 8px;
+  padding-left: 11px;
+  transition: 0.4s;
+}
+.sidebar__panel__text:hover {
+  width: 239px;
+  height: 40px;
+  background: #2B3648;
+  color: #1976D2;
+  transition: 0.4s;
+}
+.sidebar__panel__textgroup {
+  height: 40px;
+  width: 239px;
+  display: flex;
+  flex-direction: row;
+  margin-top: px;
+}
+
+span {
+  padding-left: 34px;
+}
+
+i {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+body, html {
+  height: 100%;
+  background: #2B3648;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+
+.tab {
+  display: flex;
+  flex-direction: row;
+}
+.tab__button__clients {
+  display: flex;
+  height: 140px;
+  width: 156px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #56657F;
+  background: #212936;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  margin-left: 33px;
+  font-size: 17px;
+  font-weight: 200;
+  transition: 0.4s;
+  margin-top: 32px;
+}
+.tab__button__clients:hover {
+  color: #FFFFFF;
+  background: #1976D2;
+  transition: 0.4s;
+}
+.tab__button__lessons {
+  display: flex;
+  height: 140px;
+  width: 156px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #56657F;
+  background: #212936;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  margin-left: 32px;
+  font-size: 17px;
+  font-weight: 200;
+  transition: 0.4s;
+  margin-top: 32px;
+}
+.tab__button__lessons:hover {
+  color: #FFFFFF;
+  background: #1976D2;
+  transition: 0.4s;
+}
+
+.user {
+  font-size: 24px;
+  font-weight: lighter;
+  bottom: 20.83%;
+}
